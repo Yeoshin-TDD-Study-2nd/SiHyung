@@ -1,6 +1,6 @@
 # [TDD 스터디 2기 FOR REACT](https://github.com/Yeoshin-TDD-Study-2nd)
 
-## REACT는 TDD도 이쁘게
+## GOAL : REACT에 TDD를 도입해보자 + REACT는 TDD도 이쁘게
 
 ```bash
 # Running locally
@@ -17,10 +17,10 @@ Open [http://localhost:4000](http://localhost:3000)
 ```bash
 
 └─ src
-	└─ components
-		└─ curriculum	# 주별로 커리큘럼
-			└─ 1
-			└─ 2
+   └─ components
+      └─ curriculum	# 주별로 커리큘럼
+	 └─ 1
+	 └─ 2
 
 ```
 
