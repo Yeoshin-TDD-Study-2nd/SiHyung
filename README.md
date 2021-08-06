@@ -1,14 +1,30 @@
 # [TDD 스터디 2기 FOR REACT](https://github.com/Yeoshin-TDD-Study-2nd)
 
-## Running Locally
+## REACT는 TDD도 이쁘게
 
 ```bash
+# Running locally
+
 yarn install
 yarn dev
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:4000](http://localhost:3000)
 
-## 스터디 5주차
+## Directory Tree
 
-피보나치 수열
+```bash
+
+└─ src
+	└─	components
+		└─ curriculum	# 매주 별 커리큘럼
+			└─ 1
+			└─ 2
+
+```
+
+## [ 8월 5주차 ]
+
+- [ ] 피보나치 수열
+- [ ] 5주차 회의록 정리

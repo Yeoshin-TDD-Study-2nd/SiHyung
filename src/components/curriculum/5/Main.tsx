@@ -1,6 +1,22 @@
 import { useCallback, useState } from "react";
 import styled from "@emotion/styled/macro";
-import fibonacci from "pages/utils/fibonacci";
+
+// NOTE : FIBO CALC
+
+function fibonacci(num: number) {
+	var a = 1,
+		b = 0,
+		temp;
+
+	while (num >= 0) {
+		temp = a;
+		a = a + b;
+		b = temp;
+		num--;
+	}
+
+	return b;
+}
 
 const Main = () => {
 	const [number, setNumber] = useState("");

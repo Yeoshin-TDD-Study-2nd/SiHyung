@@ -1,11 +1,10 @@
 import React from "react";
 import { render, screen, fireEvent } from "@testing-library/react";
-import fibonacci from "pages/utils/fibonacci";
-import Main from "../components/main";
+import Index from "./curriculum/5/Main";
 
 describe("Fibo Test", () => {
 	test("should return fibo value", () => {
-		render(<Main />);
+		render(<Index />);
 
 		const INPUT_NUMBER = 5;
 
@@ -19,6 +18,7 @@ describe("Fibo Test", () => {
 
 		// TEST : 5를 넣으면 5가 입력되어야한다.
 		fireEvent.change(inputEL, { target: { value: INPUT_NUMBER } });
+
 		expect(screen.getByTestId("number-input")).toHaveValue(INPUT_NUMBER);
 
 		// TEST : 엔터키 입력, 13번
@@ -30,3 +30,20 @@ describe("Fibo Test", () => {
 		);
 	});
 });
+
+// NOTE : FIBO CALC
+
+function fibonacci(num: number) {
+	var a = 1,
+		b = 0,
+		temp;
+
+	while (num >= 0) {
+		temp = a;
+		a = a + b;
+		b = temp;
+		num--;
+	}
+
+	return b;
+}
