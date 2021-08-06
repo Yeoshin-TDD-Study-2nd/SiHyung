@@ -1,6 +1,6 @@
 # [TDD 스터디 2기 FOR REACT](https://github.com/Yeoshin-TDD-Study-2nd)
 
-## REACT는 TDD도 이쁘게 !
+## REACT는 TDD도 이쁘게
 
 ```bash
 # Running locally
