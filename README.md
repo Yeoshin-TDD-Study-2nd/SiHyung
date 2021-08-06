@@ -17,8 +17,8 @@ Open [http://localhost:4000](http://localhost:3000)
 ```bash
 
 └─ src
-	└─	components
-		└─ curriculum	# 매주 별 커리큘럼
+	└─ components
+		└─ curriculum	# 주별로 커리큘럼
 			└─ 1
 			└─ 2
 
