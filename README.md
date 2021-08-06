@@ -1,6 +1,6 @@
 # [TDD 스터디 2기 FOR REACT](https://github.com/Yeoshin-TDD-Study-2nd)
 
-## GOAL : REACT에 TDD를 도입해보자 + REACT는 TDD도 이쁘게
+## REACT는 TDD도 이쁘게 !
 
 ```bash
 # Running locally
