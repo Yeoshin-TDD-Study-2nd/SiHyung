@@ -1,10 +1,10 @@
 import React from "react";
 import { render, screen, fireEvent } from "@testing-library/react";
-import Index from "./curriculum/5/Main";
+import Main from "./curriculum/5/Main";
 
 describe("Fibo Test", () => {
 	test("should return fibo value", () => {
-		render(<Index />);
+		render(<Main />);
 
 		const INPUT_NUMBER = 5;
 
